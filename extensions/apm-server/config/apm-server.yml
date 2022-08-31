@@ -6,3 +6,5 @@ output:
     hosts: ['http://elasticsearch:9200']
     username: elastic
     password: ${ELASTIC_PASSWORD}
+
+logging.to_stderr: true
